@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+.btn {
+	color: white;
+	/* background-color: red; */
+	border-radius: 5px;
+	font-size: larger;
+	display: block;
+	padding: 5px;
+	margin: 10px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .App {
+	width: 100%;
+	
+} */
+.form {
+	width: 82%;
+	height: 95vh;
+	/* background-color:blanchedalmond; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+	width: 80px;
+	height: 80px;
+}
+p {
+	color: red;
+}
+.Tabledata {
+	/* border:2px solid red; */
+	margin: 25px;
+	/* border: 1px red solid; */
+
+	/* border:1px black solid; */
+
+	width: 90%;
+	padding: 5px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	justify-content: center;
+	align-items: center;
+}
+.sc-crXcEl {
+	font-weight: bold;
+	font-size: 18px;
+	color: black !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sc-hKMtZM {
+	font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.fname {
+	margin-right: 20px !important;
+	width: unset;
 }
+.gname {
+	margin-right: 20px !important;
+	width: unset;
+}
+.button {
+	font-size: 20px;
+}
+.mydiv {
+	display: flex;
+	width: 100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	justify-content: center;
+	align-items: center;
+	margin: 2px;
+}
+body {
+	background-color: #f8f8ff;
+}
+.sub_form {
+	/* box-shadow: 15px 15px 15px 15px lightblue; */
+	/* box-shadow: 10px 10px 5px lightblue;
+	border:1px solid lightblue; */
+
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	width: 40%;
+	margin: 2px;
+	/* border:1px black solid; */
+	padding: 15px;
+	z-index: 10;
+margin-left: 25%;
+border-radius: 20px;
+
+}
+/* .bnAwAJ
+{
+	max-width: 100% !important;
+	min-width: 0px !important;
+}
+.jfrgbA
+{
+	padding: 0% !important;
+} */
+.email {
+	margin-right: 20px !important;
+	width: unset;
+}
+.ppc {
+	margin-right: 20px !important;
+	width: unset;
+}
+.gender {
+	margin-right: 20px !important;
+	width: unset;
+}
+.country {
+	margin-right: 20px !important;
+	width: unset;
+	margin-left:8px;
+}
+.gencoun {
+	justify-content: space-between;
+	/* margin-left:5px; */
 }
